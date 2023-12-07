@@ -1,0 +1,55 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2em 4em;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2em 4em;
+}
+.navLinks{
+    text-decoration: none;
+    color: white;
+}
+.navLinks:not(:last-child){
+    margin-right: 4em;
+}
+.contact{
+    padding: 5px;
+    border: 1px solid white;
+}
+.contact:hover{
+    background: white;
+    color: #0f0f0f;
+}
+.footerIcon{
+    width: 16px;
+    margin: 3px;
+    margin-bottom: -2px;
+}
+.footerIcon2{
+    width: 16px;
+    margin: 3px;
+}
+.footerTag{
+    width: 13rem;
+}
+.footerLinkSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.logoLink{
+    text-decoration: none;
+    color:white;
+}
+.logoLink:visited{
+    color:white;
+}
